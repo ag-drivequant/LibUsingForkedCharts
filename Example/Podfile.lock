@@ -1,0 +1,26 @@
+PODS:
+  - ChartsForked (3.6.0):
+    - ChartsForked/Core (= 3.6.0)
+  - ChartsForked/Core (3.6.0)
+  - LibUsingForkedCharts (0.1.0):
+    - ChartsForked
+
+DEPENDENCIES:
+  - ChartsForked (= 3.6.0)
+  - LibUsingForkedCharts (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ChartsForked
+
+EXTERNAL SOURCES:
+  LibUsingForkedCharts:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChartsForked: 732b74e2635fb83ba48011d72cfd1ec19c01e512
+  LibUsingForkedCharts: d7011f4ff17c4a0b5eedf898997e2ea983b90594
+
+PODFILE CHECKSUM: ccb247bdfce7667288ea9aa028d9d40aa5f6aeb4
+
+COCOAPODS: 1.11.3
